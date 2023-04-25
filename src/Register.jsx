@@ -70,14 +70,14 @@ const Register = ()=> {
             </span>
          </div>
         
-        <div>
+        <div className="flex justify-center items-center">
             {/* Other signin platform */}
             <GoogleLogin
         onSuccess={responseGoogle}
         onError={failGoogle}
-        // theme="filled_black"
-        type="standard"
-        size="medium"
+        theme="filled_black"
+        type="icon"
+        // size="medium"
         shape="circle"
         useOneTap
         />
