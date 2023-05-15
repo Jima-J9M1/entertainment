@@ -65,7 +65,7 @@ const Register = ()=> {
          
          <div>
             {/*  or Continue with*/}
-            <span className="before:content-['----------'] before:text-gray-300 after:content-['----------'] after:text-gray-300 font-bold">
+            <span className="before:content-['----------'] before:ml-12 before:text-gray-300 after:content-['----------'] after:text-gray-300 font-bold">
             or Continue with
             </span>
          </div>
